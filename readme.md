@@ -1,6 +1,14 @@
 # Readme
 
-This project is about 
+This project uses terraform to complete the following tasks.
+
+- Create a random pet name for the vsphere deployment.
+- Pulls variable values and secrets from Consul and Vault.
+- Deploys a vsphere virtual machine from an Ubuntu Server 20. template.
+- Configures the new Ubuntu VM with cloud-init:
+  - configures IP address and routing information
+  - parses shell scripts passed from the `scripts` directory.
+
 
 ## Requirements
 
