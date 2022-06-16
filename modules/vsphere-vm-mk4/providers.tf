@@ -1,7 +1,3 @@
-##################################
-# versions file
-##################################
-
 terraform {
   required_providers {
     vsphere = {
@@ -10,4 +6,3 @@ terraform {
     }
   }
 }
-

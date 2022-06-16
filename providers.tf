@@ -19,12 +19,9 @@ terraform {
       source  = "hashicorp/consul"
       version = "2.15.1"
     }
-    vsphere = {
-      source  = "hashicorp/vsphere"
-      version = "2.1.1"
-    }
   }
 }
+
 
 provider "vsphere" {
   user                 = data.vault_generic_secret.vmw.data["username"]

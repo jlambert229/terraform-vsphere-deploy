@@ -2,31 +2,6 @@
 # variables file
 ##################################
 
-variable "vsphere_user" {
-  type        = string
-  description = "This is the username for vSphere API operations. "
-  default     = "admin"
-}
-
-variable "vsphere_password" {
-  type        = string
-  description = "This is the password for vSphere API operations."
-  sensitive   = true
-  default     = "password"
-}
-
-variable "vsphere_server" {
-  type        = string
-  description = "This is the vCenter server name for vSphere API operations."
-  default     = "vc-01"
-}
-
-variable "vsphere_allow_unverified_ssl" {
-  type        = bool
-  description = "Boolean that can be set to true to disable SSL certificate verification."
-  default     = true
-}
-
 variable "vsphere_datacenter" {
   type        = string
   description = "The name of the datacenter."

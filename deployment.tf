@@ -34,10 +34,6 @@ resource "random_pet" "server" {
 module "vsphere-vm-mk4" {
   source                       = "./modules/vsphere-vm-mk4"
   for_each                     = var.vm_deploy_data
-  vsphere_user                 = data.vault_generic_secret.vmw.data["username"]
-  vsphere_password             = data.vault_generic_secret.vmw.data["password"]
-  vsphere_allow_unverified_ssl = true
-  vsphere_server               = data.consul_keys.consul.var.vmw_endpoint
   vsphere_datacenter           = data.consul_keys.consul.var.vmw_dc
   vsphere_compute_cluster      = data.consul_keys.consul.var.vmw_cluster
   vsphere_datastore            = each.value["vsphere_datastore"]
