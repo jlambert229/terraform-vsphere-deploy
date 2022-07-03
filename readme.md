@@ -7,7 +7,7 @@ This project uses terraform to complete the following tasks.
 - Deploys a vsphere virtual machine from an Ubuntu Server 20. template.
 - Configures the new Ubuntu VM with cloud-init:
   - configures IP address and routing information
-  - parses shell scripts passed from the `scripts` directory.
+  - runs shell scripts with `cloud-init` from the `scripts` directory.
 
 
 ## Requirements
