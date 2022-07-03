@@ -13,7 +13,6 @@ This project uses terraform to complete the following tasks.
   - configures IP address and routing information
   - runs shell scripts with `cloud-init` from the `scripts` directory.
 
-
 ## Requirements
 
 | Name | Version |
