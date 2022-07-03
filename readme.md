@@ -1,5 +1,9 @@
 # Readme
 
+<!-- [START BADGES] -->
+
+<!-- [END BADGES] -->
+
 This project uses terraform to complete the following tasks.
 
 - Create a random pet name for the vsphere deployment.
