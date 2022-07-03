@@ -1,10 +1,12 @@
 # Readme
 
+<!Badges>
   ![GitHub release (latest by date)](https://img.shields.io/github/v/release/jlambert229/terraform-vsphere-deploy?style=for-the-badge) 
   ![GitHub](https://img.shields.io/github/license/jlambert229/terraform-vsphere-deploy?style=for-the-badge)
   ![GitHub last commit](https://img.shields.io/github/last-commit/jlambert229/terraform-vsphere-deploy?style=for-the-badge)
   ![terraform-logo-badge](https://img.shields.io/badge/-terraform-blueviolet?style=for-the-badge&logo=terraform)
   ![vmware-logo-badge](https://img.shields.io/badge/-vmware-607078?style=for-the-badge)
+<!Badges>
 
 This project uses terraform to complete the following tasks.
 
